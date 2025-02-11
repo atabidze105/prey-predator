@@ -7,6 +7,7 @@ using LiveChartsCore.SkiaSharpView.Painting;
 using SkiaSharp;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace predator_prey_tab
 {
@@ -28,8 +29,8 @@ namespace predator_prey_tab
                     Convert.ToDouble(tbox_generationPrey.Text), Convert.ToDouble(tbox_generationPredator.Text),
                     Convert.ToDouble(tbox_generationPrey2.Text), Convert.ToDouble(tbox_generationPredator2.Text),
                     Convert.ToDouble(tbox_generationPrey3.Text), Convert.ToDouble(tbox_generationPredator3.Text));
-                graph = new LiveChartsCore.SkiaSharpView.Avalonia.CartesianChart();
                 grid_main.DataContext = dia;
+               
             }
             catch { }
         }

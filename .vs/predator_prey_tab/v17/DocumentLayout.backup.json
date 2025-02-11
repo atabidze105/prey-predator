@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\prdb\\source\\repos\\predator_prey_tab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0B39A20-B4D0-458E-9E87-162B8850A771}|predator_prey_tab\\predator_prey_tab.csproj|c:\\users\\prdb\\source\\repos\\predator_prey_tab\\predator_prey_tab\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A0B39A20-B4D0-458E-9E87-162B8850A771}|predator_prey_tab\\predator_prey_tab.csproj|solutionrelative:predator_prey_tab\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A0B39A20-B4D0-458E-9E87-162B8850A771}|predator_prey_tab\\predator_prey_tab.csproj|c:\\users\\prdb\\source\\repos\\predator_prey_tab\\predator_prey_tab\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0B39A20-B4D0-458E-9E87-162B8850A771}|predator_prey_tab\\predator_prey_tab.csproj|solutionrelative:predator_prey_tab\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0B39A20-B4D0-458E-9E87-162B8850A771}|predator_prey_tab\\predator_prey_tab.csproj|c:\\users\\prdb\\source\\repos\\predator_prey_tab\\predator_prey_tab\\diagramdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0B39A20-B4D0-458E-9E87-162B8850A771}|predator_prey_tab\\predator_prey_tab.csproj|solutionrelative:predator_prey_tab\\diagramdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B39A20-B4D0-458E-9E87-162B8850A771}|predator_prey_tab\\predator_prey_tab.csproj|c:\\users\\prdb\\source\\repos\\predator_prey_tab\\predator_prey_tab\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A0B39A20-B4D0-458E-9E87-162B8850A771}|predator_prey_tab\\predator_prey_tab.csproj|solutionrelative:predator_prey_tab\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\predator_prey_tab\\predator_prey_tab\\MainWindow.axaml",
               "RelativeDocumentMoniker": "predator_prey_tab\\MainWindow.axaml",
@@ -54,28 +54,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\predator_prey_tab\\predator_prey_tab\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "predator_prey_tab\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\prdb\\source\\repos\\predator_prey_tab\\predator_prey_tab\\MainWindow.axaml.cs",
               "RelativeToolTip": "predator_prey_tab\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T10:14:17.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DiagramData.cs",
               "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\predator_prey_tab\\predator_prey_tab\\DiagramData.cs",
               "RelativeDocumentMoniker": "predator_prey_tab\\DiagramData.cs",
               "ToolTip": "C:\\Users\\prdb\\source\\repos\\predator_prey_tab\\predator_prey_tab\\DiagramData.cs",
               "RelativeToolTip": "predator_prey_tab\\DiagramData.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAwwHEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAmwE8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T12:29:27.52Z"
+              "WhenOpened": "2025-02-10T12:29:27.52Z",
+              "EditorCaption": ""
             }
           ]
         }

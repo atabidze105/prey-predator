@@ -105,8 +105,10 @@ namespace predator_prey_tab
             _points.AddRange(generation);
         }
 
-        private  List<ObservablePoint> InitializePhazePortreit()
+        private List<ObservablePoint> InitializePhazePortreit()
         {
+            _points.Clear();
+
             PointsInserting(_preyQuantity1, _predatorQuantity1);
             PointsInserting(_preyQuantity2, _predatorQuantity2);
             PointsInserting(_preyQuantity3, _predatorQuantity3);
@@ -115,7 +117,8 @@ namespace predator_prey_tab
 
         private void InitializeGraph()
         {
-
+            _valuePredator.Clear();
+            _valuePrey.Clear();
             foreach (ObservablePoint point in _points)
             {
                 _valuePrey.Add((double)point.X);

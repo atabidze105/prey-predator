@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("predator_prey_tab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c831610fdc4cb026202b013814935deee65c9e82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8587dc794c12583cd74076f8cd02e5953a02d75d")]
 [assembly: System.Reflection.AssemblyProductAttribute("predator_prey_tab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("predator_prey_tab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
