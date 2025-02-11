@@ -1,0 +1,113 @@
+<Window 
+	xmlns="https://github.com/avaloniaui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:local="using:AvaloniaSample"
+	xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+	mc:Ignorable="d" d:DesignWidth="1200" d:DesignHeight="800"
+	x:Class="predator_prey_tab.MainWindow"
+	Title="predator_prey_tab"
+	x:CompileBindings="False">
+	<Grid
+		Name="grid_main"
+		ShowGridLines="False"
+		ColumnDefinitions="*,*,*"
+		RowDefinitions="auto,*,*">
+		<TextBlock
+			HorizontalAlignment="Center" Grid.ColumnSpan="3" Margin="5"
+			Text="Хищник-жертва" FontSize="26" FontWeight="DemiBold"/>
+		<StackPanel
+			Orientation="Vertical"
+			Grid.RowSpan="2" Grid.Row="1">
+			<TextBlock
+				Text="Коэфициент гибели жертвы за счёт встречи жертвы с хищником (α):"
+				TextWrapping="WrapWithOverflow"/>			
+			<TextBox
+				Name="tbox_alpha"
+				Text="{Binding Alpha}"
+				KeyUp="TextBox_KeyUp"/>
+			<TextBlock
+				Text="Биотический потенциал популяции жертв (ε):"
+				TextWrapping="WrapWithOverflow"/>
+			<TextBox
+				Name="tbox_epsilon"
+				Text="{Binding Epsilon}"
+				KeyUp="TextBox_KeyUp"/>
+			<TextBlock
+				Text="Коэффициент естественной гибели хищников (β):"
+				TextWrapping="WrapWithOverflow"/>
+			<TextBox
+				Name="tbox_beta"
+				Text="{Binding Beta}"
+				KeyUp="TextBox_KeyUp"/>
+			<TextBlock
+				Text="Коэффициент роста (σ):"
+				TextWrapping="WrapWithOverflow"/>
+			<TextBox
+				Name="tbox_omega"
+				Text="{Binding Omega}"
+				KeyUp="TextBox_KeyUp"/>
+			
+			<TextBlock
+				Text="Первое поколение жертв (количество):"
+				TextWrapping="WrapWithOverflow"/>
+			<TextBox
+				Name="tbox_generationPrey"
+				Text="{Binding PreyQuantity1}"
+				KeyUp="TextBox_KeyUp"/>
+			<TextBlock
+				Text="Первое поколение хищников (количество):"
+				TextWrapping="WrapWithOverflow"/>
+			<TextBox
+				Name="tbox_generationPredator"
+				Text="{Binding PredatorQuantity1}"
+				KeyUp="TextBox_KeyUp"/>
+			<TextBlock
+				Text="Второе поколение жертв (количество):"
+				TextWrapping="WrapWithOverflow"/>
+			<TextBox
+				Name="tbox_generationPrey2"
+				Text="{Binding PreyQuantity2}"
+				KeyUp="TextBox_KeyUp"/>
+			<TextBlock
+				Text="Второе поколение хищников (количество):"
+				TextWrapping="WrapWithOverflow"/>
+			<TextBox
+				Name="tbox_generationPredator2"
+				Text="{Binding PredatorQuantity2}"
+				KeyUp="TextBox_KeyUp"/>
+			<TextBlock
+				Text="Третье поколение жертв (количество):"
+				TextWrapping="WrapWithOverflow"/>
+			<TextBox
+				Name="tbox_generationPrey3"
+				Text="{Binding PreyQuantity3}"
+				KeyUp="TextBox_KeyUp"/>
+			<TextBlock
+				Text="Третье поколение хищников (количество):"
+				TextWrapping="WrapWithOverflow"/>
+			<TextBox
+				Name="tbox_generationPredator3"
+				Text="{Binding PredatorQuantity3}"
+				KeyUp="TextBox_KeyUp"/>
+		</StackPanel>
+		<TabControl
+			Margin="10"
+			Grid.Column="1" Grid.ColumnSpan="2"
+			Grid.Row="1" Grid.RowSpan="2">
+			<TabItem	
+				Header="Фазовый портрет">
+				<lvc:CartesianChart
+					Name="phase_portrait"
+					Series="{Binding PhasePoints}"/>
+			</TabItem>
+			<TabItem 
+				Header="График">
+				<lvc:CartesianChart
+					Name="graph"
+					Series="{Binding GraphPoints}"/>
+			</TabItem>
+		</TabControl>
+	</Grid>
+</Window>
